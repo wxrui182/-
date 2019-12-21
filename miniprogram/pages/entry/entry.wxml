@@ -1,0 +1,12 @@
+<view class="entry">
+  <button class="f2" type="primary" bindtap="judge">点击进入</button>
+</view>
+
+<!-- 测试代码 -->
+<view class="register">
+  <button class="f2" type="primary" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权</button>
+</view>
+
+<view class="xinxi"><text class="tishi">您好！如果您是新用户，请先点击授权</text></view>
+
+<view class="mingzi"><text class="yonghu">用户名：{{userid}}</text></view>

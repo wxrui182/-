@@ -1,0 +1,4 @@
+<view bindtap="goHome" class="warp">
+    <image src="welcome.jpg"></image>
+    <text>{{ countDownNumber }}</text> <!-- 倒计时 -->
+</view>

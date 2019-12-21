@@ -1,0 +1,22 @@
+<view class="list-container">
+<input bindinput="tagInput" class="list-item-input tag" placeholder="标签" value="{{tag}}" />
+</view>
+
+<view class="list-container">
+<input bindinput="usernameInput" class="list-item-input username" placeholder="账号" value="{{username}}" />
+</view>
+
+<view class="list-container">
+   <input bindinput="passwordInput" class="list-item-input password" placeholder="密码" value="{{password}}" />
+</view>
+<view class="saveButtonContainer">
+  <button class="f" type="primary" bindtap="saveNewPassword"> 保存 </button>
+</view>
+
+<view class="upDataButtonContainer">
+  <button class="f" type="primary" bindtap="UpdataNewPassword"> 更新</button>
+</view>
+
+<view class="QueryButtonContainer">
+  <button class="f" type="primary" bindtap="QueryPassword"> 查询</button>
+</view>

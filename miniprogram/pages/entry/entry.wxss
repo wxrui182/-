@@ -1,0 +1,29 @@
+page{
+  background-color: black
+}
+.entry{
+  padding: 50rpx
+}
+
+.register{
+  padding: 30rpx
+}
+
+.tishi{
+  font-size: 40rpx;
+  
+}
+.xinxi{
+  padding: 10rpx;
+  margin-top: 50rpx;
+  color: red
+}
+.f2{
+  width: 500rpx
+}
+.yonghu{
+  color:yellow
+}
+.mingzi{
+  padding: 30rpx
+}

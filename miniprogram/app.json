@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/entry/entry",
+    "pages/index2/index2",
+    "pages/list/list",
+    "pages/list/edit/edit",
+    "pages/add/add",
+    "pages/jiami/jiami"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#0d0d0d",
+    "navigationBarBackgroundColor": "#181818",
+    "navigationBarTitleText": "密码托管仓库",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#1b1b1b",
+    "borderStyle": "white",
+    "color": "#7b7b7b",
+    "selectedColor": "#ff9500",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "列表(长按更新)",
+        "iconPath": "list_un.png",
+        "selectedIconPath": "list.png"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "text": "添加到本地",
+        "iconPath": "add_un.png",
+        "selectedIconPath": "add.png"
+      },
+      {
+        "text": "加密云存储",
+        "pagePath": "pages/jiami/jiami",
+        "iconPath": "settings_un.png",
+        "selectedIconPath": "settings.png"
+      },
+      {
+        "text":"更新照片",
+        "pagePath":"pages/index2/index2",
+        "iconPath":"renewal2.png",
+        "selectedIconPath":"renewal1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

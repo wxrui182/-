@@ -1,0 +1,66 @@
+/* miniprogram/pages/index/index.wxss */
+page {
+  background-color: #0d0d0d;
+  height: 100%;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  /*临时使用*/
+  color: #e0e0e0;
+}
+
+.list-container {
+  margin: 71rpx 0;
+}
+
+.list-item {
+  height: 107rpx;
+  padding-left: 7rpx;
+  align-items: center;
+}
+
+.list-item-input {
+  height: 107rpx;
+  line-height: 107rpx;
+  font-size: 51rpx;
+  flex: 1;
+   border:1px solid cadetblue;
+
+}
+
+.list-item-input.tag {
+  color: #009688;
+}
+
+.list-item-input.username {
+  color: #ff9800;
+}
+
+.list-item-input.password {
+  color: #e91e63;
+}
+
+
+
+
+
+
+.conditon-switch text {
+  padding-left: 29rpx;
+  min-width: 171rpx;
+}
+
+
+
+.saveButtonContainer {
+  margin: 50rpx;
+
+}
+.updataButtonContainer{
+    margin: 50rpx;
+  
+}
+.QueryButtonContainer{
+  margin:50rpx;
+}
+.f{
+width:400rpx
+}

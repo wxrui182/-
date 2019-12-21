@@ -1,0 +1,7 @@
+page{
+  background-color: black
+}
+.f1{
+width: 300rpx;
+margin-top: 500rpx
+}
